@@ -1,0 +1,11 @@
+true
+Proofs:
+1.	[p] seq [p, q]                                      Rule P1
+2.	[q] seq [p, q]                                      Rule P1
+3.	[p] seq [p, q]  - AND -  [q] seq [p, q]             AND
+4.	[] seq [p iff q, p, q]                              Rule P6a
+5.	[neg q] seq [p iff q, p]                            Rule P2b
+6.	[neg p, neg q] seq [p iff q]                        Rule P2b
+7.	[(neg p) and (neg q)] seq [p iff q]                 Rule P3b
+8.	[] seq [((neg p) and (neg q)) imp (p iff q)]        Rule P5a
+QED

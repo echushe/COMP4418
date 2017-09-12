@@ -1,0 +1,5 @@
+true
+Proofs:
+1.	[p] seq [p, q]          Rule P1
+2.	[p] seq [p or q]        Rule P4a
+QED

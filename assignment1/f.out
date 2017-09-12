@@ -1,0 +1,18 @@
+true
+Proofs:
+1.	[p, q] seq [q]                                                           Rule P1
+2.	[p, q, neg q] seq []                                                     Rule P2b
+3.	[p, q] seq [p]                                                           Rule P1
+4.	[p, q] seq [neg q, p]                                                    Rule P2a
+5.	[p, q, neg q] seq []  - AND -  [p, q] seq [neg q, p]                     AND
+6.	[p, p iff (neg q), q] seq []                                             Rule P6b
+7.	[p] seq [q, p]                                                           Rule P1
+8.	[p, neg q] seq [q, p]                                                    Rule P2b
+9.	[q] seq [q, p]                                                           Rule P1
+10.	[] seq [q, p, neg q]                                                     Rule P2a
+11.	[p, neg q] seq [q, p]  - AND -  [] seq [q, p, neg q]                     AND
+12.	[p iff (neg q)] seq [q, p]                                               Rule P6b
+13.	[p, p iff (neg q), q] seq []  - AND -  [p iff (neg q)] seq [q, p]        AND
+14.	[p iff q, p iff (neg q)] seq []                                          Rule P6b
+15.	[p iff q] seq [neg (p iff (neg q))]                                      Rule P2a
+QED

@@ -1,0 +1,194 @@
+true
+Proofs:
+1.	[f, d, a, i, h, c, b] seq [d, g, c]                                                                                                                                    Rule P1
+2.	[f, d, a, i, h, c, b] seq [d, g, c, a]                                                                                                                                 Rule P1
+3.	[f, d, a, i, h, c, b] seq [d, g, c]  - AND -  [f, d, a, i, h, c, b] seq [d, g, c, a]                                                                                   AND
+4.	[f, d, a, i, h, c, b, a imp c] seq [d, g, c]                                                                                                                           Rule P5b
+5.	[f, d, a, i, h, c, b] seq [d, g, c]                                                                                                                                    Rule P1
+6.	[f, d, a, i, h, c, b] seq [d, g, a imp c, c]                                                                                                                           Rule P5a
+7.	[f, d, a, i, h, c, b, a imp c] seq [d, g, c]  - AND -  [f, d, a, i, h, c, b] seq [d, g, a imp c, c]                                                                    AND
+8.	[d iff (a imp c), f, d, a, i, h, c, b] seq [d, g, c]                                                                                                                   Rule P6b
+9.	[f, d, a, i, h, c] seq [d, g, c, a]                                                                                                                                    Rule P1
+10.	[f, d, a, i, h, c] seq [d, g, c, a]                                                                                                                                    Rule P1
+11.	[f, d, a, i, h, c] seq [d, g, c, a]  - AND -  [f, d, a, i, h, c] seq [d, g, c, a]                                                                                      AND
+12.	[f, d, a, i, h, c, a imp c] seq [d, g, c, a]                                                                                                                           Rule P5b
+13.	[f, d, a, i, h, c] seq [d, g, c, a]                                                                                                                                    Rule P1
+14.	[f, d, a, i, h, c] seq [d, g, a imp c, c, a]                                                                                                                           Rule P5a
+15.	[f, d, a, i, h, c, a imp c] seq [d, g, c, a]  - AND -  [f, d, a, i, h, c] seq [d, g, a imp c, c, a]                                                                    AND
+16.	[d iff (a imp c), f, d, a, i, h, c] seq [d, g, c, a]                                                                                                                   Rule P6b
+17.	[d iff (a imp c), f, d, a, i, h, c, b] seq [d, g, c]  - AND -  [d iff (a imp c), f, d, a, i, h, c] seq [d, g, c, a]                                                    AND
+18.	[f, d iff (a imp c), d, a, i, h, a imp b, c] seq [d, g, c]                                                                                                             Rule P5b
+19.	[f, d, i, a, h, c] seq [d, g, c, b]                                                                                                                                    Rule P1
+20.	[f, d, i, a, h] seq [d, g, c, b, a]                                                                                                                                    Rule P1
+21.	[f, d, i, a, h, c] seq [d, g, c, b]  - AND -  [f, d, i, a, h] seq [d, g, c, b, a]                                                                                      AND
+22.	[f, d, a, i, h, a imp c] seq [d, g, c, b]                                                                                                                              Rule P5b
+23.	[f, d, i, a, h] seq [d, g, c, b]                                                                                                                                       Rule P1
+24.	[f, d, a, i, h] seq [d, g, a imp c, c, b]                                                                                                                              Rule P5a
+25.	[f, d, a, i, h, a imp c] seq [d, g, c, b]  - AND -  [f, d, a, i, h] seq [d, g, a imp c, c, b]                                                                          AND
+26.	[f, d iff (a imp c), d, i, a, h] seq [d, g, c, b]                                                                                                                      Rule P6b
+27.	[d iff (a imp c), f, d, a, i, h] seq [d, g, c, a imp b]                                                                                                                Rule P5a
+28.	[f, d iff (a imp c), d, a, i, h, a imp b, c] seq [d, g, c]  - AND -  [d iff (a imp c), f, d, a, i, h] seq [d, g, c, a imp b]                                           AND
+29.	[f, (a imp b) iff c, d iff (a imp c), d, i, a, h] seq [d, g, c]                                                                                                        Rule P6b
+30.	[f, d, a, i, h, c, b] seq [d, g, h]                                                                                                                                    Rule P1
+31.	[f, d, a, i, h, c, b] seq [d, g, h, a]                                                                                                                                 Rule P1
+32.	[f, d, a, i, h, c, b] seq [d, g, h]  - AND -  [f, d, a, i, h, c, b] seq [d, g, h, a]                                                                                   AND
+33.	[f, d, a, i, h, c, b, a imp c] seq [d, g, h]                                                                                                                           Rule P5b
+34.	[f, d, a, i, h, c, b] seq [d, g, h, c]                                                                                                                                 Rule P1
+35.	[f, d, a, i, h, c, b] seq [d, g, h, a imp c]                                                                                                                           Rule P5a
+36.	[f, d, a, i, h, c, b, a imp c] seq [d, g, h]  - AND -  [f, d, a, i, h, c, b] seq [d, g, h, a imp c]                                                                    AND
+37.	[d iff (a imp c), f, d, a, i, h, c, b] seq [d, g, h]                                                                                                                   Rule P6b
+38.	[f, d, a, i, h, c] seq [d, g, h, a]                                                                                                                                    Rule P1
+39.	[f, d, a, i, h, c] seq [d, g, h, a]                                                                                                                                    Rule P1
+40.	[f, d, a, i, h, c] seq [d, g, h, a]  - AND -  [f, d, a, i, h, c] seq [d, g, h, a]                                                                                      AND
+41.	[f, d, a, i, h, c, a imp c] seq [d, g, h, a]                                                                                                                           Rule P5b
+42.	[f, d, a, i, h, c] seq [d, g, h, a, c]                                                                                                                                 Rule P1
+43.	[f, d, a, i, h, c] seq [d, g, h, a, a imp c]                                                                                                                           Rule P5a
+44.	[f, d, a, i, h, c, a imp c] seq [d, g, h, a]  - AND -  [f, d, a, i, h, c] seq [d, g, h, a, a imp c]                                                                    AND
+45.	[d iff (a imp c), f, d, a, i, h, c] seq [d, g, h, a]                                                                                                                   Rule P6b
+46.	[d iff (a imp c), f, d, a, i, h, c, b] seq [d, g, h]  - AND -  [d iff (a imp c), f, d, a, i, h, c] seq [d, g, h, a]                                                    AND
+47.	[f, d iff (a imp c), d, a, i, h, a imp b, c] seq [d, g, h]                                                                                                             Rule P5b
+48.	[f, d, i, a, h, c] seq [d, g, h, c, b]                                                                                                                                 Rule P1
+49.	[f, d, i, a, h] seq [d, g, h, c, b, a]                                                                                                                                 Rule P1
+50.	[f, d, i, a, h, c] seq [d, g, h, c, b]  - AND -  [f, d, i, a, h] seq [d, g, h, c, b, a]                                                                                AND
+51.	[f, d, a, i, h, a imp c] seq [d, g, h, c, b]                                                                                                                           Rule P5b
+52.	[f, d, i, a, h] seq [d, g, h, c, b]                                                                                                                                    Rule P1
+53.	[f, d, a, i, h] seq [d, g, h, a imp c, c, b]                                                                                                                           Rule P5a
+54.	[f, d, a, i, h, a imp c] seq [d, g, h, c, b]  - AND -  [f, d, a, i, h] seq [d, g, h, a imp c, c, b]                                                                    AND
+55.	[f, d iff (a imp c), d, i, a, h] seq [d, g, h, c, b]                                                                                                                   Rule P6b
+56.	[d iff (a imp c), f, d, a, i, h] seq [d, g, h, c, a imp b]                                                                                                             Rule P5a
+57.	[f, d iff (a imp c), d, a, i, h, a imp b, c] seq [d, g, h]  - AND -  [d iff (a imp c), f, d, a, i, h] seq [d, g, h, c, a imp b]                                        AND
+58.	[f, (a imp b) iff c, d iff (a imp c), d, i, a, h] seq [d, g, h]                                                                                                        Rule P6b
+59.	[f, (a imp b) iff c, d iff (a imp c), d, i, a, h] seq [d, g, c]  - AND -  [f, (a imp b) iff c, d iff (a imp c), d, i, a, h] seq [d, g, h]                              AND
+60.	[d iff (a imp c), (a imp b) iff c, f, d, a, i, h] seq [d, g, c and h]                                                                                                  Rule P3a
+61.	[f, d, i, h, c, b] seq [d, a, g]                                                                                                                                       Rule P1
+62.	[f, d, i, h, c, b] seq [d, a, g]                                                                                                                                       Rule P1
+63.	[f, d, i, h, c, b] seq [d, a, g]  - AND -  [f, d, i, h, c, b] seq [d, a, g]                                                                                            AND
+64.	[f, d, i, h, a imp c, c, b] seq [d, a, g]                                                                                                                              Rule P5b
+65.	[f, d, a, i, h, c, b] seq [d, a, g, c]                                                                                                                                 Rule P1
+66.	[f, d, i, h, c, b] seq [d, a, g, a imp c]                                                                                                                              Rule P5a
+67.	[f, d, i, h, a imp c, c, b] seq [d, a, g]  - AND -  [f, d, i, h, c, b] seq [d, a, g, a imp c]                                                                          AND
+68.	[f, d iff (a imp c), d, i, h, c, b] seq [d, a, g]                                                                                                                      Rule P6b
+69.	[f, d, i, h, c] seq [d, a, g]                                                                                                                                          Rule P1
+70.	[f, d, i, h, c] seq [d, a, g]                                                                                                                                          Rule P1
+71.	[f, d, i, h, c] seq [d, a, g]  - AND -  [f, d, i, h, c] seq [d, a, g]                                                                                                  AND
+72.	[f, d, i, h, a imp c, c] seq [d, a, g]                                                                                                                                 Rule P5b
+73.	[f, d, a, i, h, c] seq [d, a, g, c]                                                                                                                                    Rule P1
+74.	[f, d, i, h, c] seq [d, a, g, a imp c]                                                                                                                                 Rule P5a
+75.	[f, d, i, h, a imp c, c] seq [d, a, g]  - AND -  [f, d, i, h, c] seq [d, a, g, a imp c]                                                                                AND
+76.	[f, d iff (a imp c), d, i, h, c] seq [d, a, g]                                                                                                                         Rule P6b
+77.	[f, d iff (a imp c), d, i, h, c, b] seq [d, a, g]  - AND -  [f, d iff (a imp c), d, i, h, c] seq [d, a, g]                                                             AND
+78.	[d iff (a imp c), f, d, i, h, c, a imp b] seq [d, a, g]                                                                                                                Rule P5b
+79.	[f, d, a, i, h, c] seq [d, a, g, c, b]                                                                                                                                 Rule P1
+80.	[f, d, a, i, h, c] seq [d, a, g, c, b]                                                                                                                                 Rule P1
+81.	[f, d, a, i, h, c] seq [d, a, g, c, b]  - AND -  [f, d, a, i, h, c] seq [d, a, g, c, b]                                                                                AND
+82.	[f, d, i, a, h, a imp c, c] seq [d, a, g, c, b]                                                                                                                        Rule P5b
+83.	[f, d, a, i, h, c] seq [d, a, g, c, b]                                                                                                                                 Rule P1
+84.	[f, d, i, a, h, c] seq [d, a, g, a imp c, c, b]                                                                                                                        Rule P5a
+85.	[f, d, i, a, h, a imp c, c] seq [d, a, g, c, b]  - AND -  [f, d, i, a, h, c] seq [d, a, g, a imp c, c, b]                                                              AND
+86.	[f, d iff (a imp c), d, a, i, h, c] seq [d, a, g, c, b]                                                                                                                Rule P6b
+87.	[d iff (a imp c), f, d, i, h, c] seq [d, a, g, c, a imp b]                                                                                                             Rule P5a
+88.	[d iff (a imp c), f, d, i, h, c, a imp b] seq [d, a, g]  - AND -  [d iff (a imp c), f, d, i, h, c] seq [d, a, g, c, a imp b]                                           AND
+89.	[f, (a imp b) iff c, d iff (a imp c), d, i, h, c] seq [d, a, g]                                                                                                        Rule P6b
+90.	[c and h, d iff (a imp c), (a imp b) iff c, f, d, i, h] seq [d, a, g]                                                                                                  Rule P3b
+91.	[d iff (a imp c), (a imp b) iff c, f, d, a, i, h] seq [d, g, c and h]  - AND -  [c and h, d iff (a imp c), (a imp b) iff c, f, d, i, h] seq [d, a, g]                  AND
+92.	[f, (a imp b) iff c, d iff (a imp c), d, i, h] seq [d, a iff (c and h), g]                                                                                             Rule P6a
+93.	[d, i, a, h, b, c] seq [d, g, e, c]                                                                                                                                    Rule P1
+94.	[d, i, a, h, b, c] seq [d, g, e, c, a]                                                                                                                                 Rule P1
+95.	[d, i, a, h, b, c] seq [d, g, e, c]  - AND -  [d, i, a, h, b, c] seq [d, g, e, c, a]                                                                                   AND
+96.	[d, a, i, h, b, a imp c, c] seq [d, g, e, c]                                                                                                                           Rule P5b
+97.	[d, i, a, h, b, c] seq [d, g, e, c]                                                                                                                                    Rule P1
+98.	[d, a, i, h, b, c] seq [d, g, e, a imp c, c]                                                                                                                           Rule P5a
+99.	[d, a, i, h, b, a imp c, c] seq [d, g, e, c]  - AND -  [d, a, i, h, b, c] seq [d, g, e, a imp c, c]                                                                    AND
+100.	[d iff (a imp c), d, i, a, h, b, c] seq [d, g, e, c]                                                                                                                   Rule P6b
+101.	[d, i, a, h, c] seq [d, g, e, c, a]                                                                                                                                    Rule P1
+102.	[d, i, a, h, c] seq [d, g, e, c, a]                                                                                                                                    Rule P1
+103.	[d, i, a, h, c] seq [d, g, e, c, a]  - AND -  [d, i, a, h, c] seq [d, g, e, c, a]                                                                                      AND
+104.	[d, a, i, h, a imp c, c] seq [d, g, e, c, a]                                                                                                                           Rule P5b
+105.	[d, i, a, h, c] seq [d, g, e, c, a]                                                                                                                                    Rule P1
+106.	[d, a, i, h, c] seq [d, g, e, a imp c, c, a]                                                                                                                           Rule P5a
+107.	[d, a, i, h, a imp c, c] seq [d, g, e, c, a]  - AND -  [d, a, i, h, c] seq [d, g, e, a imp c, c, a]                                                                    AND
+108.	[d iff (a imp c), d, i, a, h, c] seq [d, g, e, c, a]                                                                                                                   Rule P6b
+109.	[d iff (a imp c), d, i, a, h, b, c] seq [d, g, e, c]  - AND -  [d iff (a imp c), d, i, a, h, c] seq [d, g, e, c, a]                                                    AND
+110.	[d iff (a imp c), d, a, i, h, a imp b, c] seq [d, g, e, c]                                                                                                             Rule P5b
+111.	[d, i, a, h, c] seq [d, g, e, c, b]                                                                                                                                    Rule P1
+112.	[d, i, a, h] seq [d, g, e, c, b, a]                                                                                                                                    Rule P1
+113.	[d, i, a, h, c] seq [d, g, e, c, b]  - AND -  [d, i, a, h] seq [d, g, e, c, b, a]                                                                                      AND
+114.	[d, a, i, h, a imp c] seq [d, g, e, c, b]                                                                                                                              Rule P5b
+115.	[d, i, a, h] seq [d, g, e, c, b]                                                                                                                                       Rule P1
+116.	[d, a, i, h] seq [d, g, e, a imp c, c, b]                                                                                                                              Rule P5a
+117.	[d, a, i, h, a imp c] seq [d, g, e, c, b]  - AND -  [d, a, i, h] seq [d, g, e, a imp c, c, b]                                                                          AND
+118.	[d iff (a imp c), d, i, a, h] seq [d, g, e, c, b]                                                                                                                      Rule P6b
+119.	[d iff (a imp c), d, a, i, h] seq [d, g, e, c, a imp b]                                                                                                                Rule P5a
+120.	[d iff (a imp c), d, a, i, h, a imp b, c] seq [d, g, e, c]  - AND -  [d iff (a imp c), d, a, i, h] seq [d, g, e, c, a imp b]                                           AND
+121.	[(a imp b) iff c, d iff (a imp c), d, i, a, h] seq [d, g, e, c]                                                                                                        Rule P6b
+122.	[d, i, a, h, b, c] seq [d, g, e, h]                                                                                                                                    Rule P1
+123.	[d, i, a, h, b, c] seq [d, g, e, h, a]                                                                                                                                 Rule P1
+124.	[d, i, a, h, b, c] seq [d, g, e, h]  - AND -  [d, i, a, h, b, c] seq [d, g, e, h, a]                                                                                   AND
+125.	[d, a, i, h, b, a imp c, c] seq [d, g, e, h]                                                                                                                           Rule P5b
+126.	[d, i, a, h, b, c] seq [d, g, e, h, c]                                                                                                                                 Rule P1
+127.	[d, a, i, h, b, c] seq [d, g, e, h, a imp c]                                                                                                                           Rule P5a
+128.	[d, a, i, h, b, a imp c, c] seq [d, g, e, h]  - AND -  [d, a, i, h, b, c] seq [d, g, e, h, a imp c]                                                                    AND
+129.	[d iff (a imp c), d, i, a, h, b, c] seq [d, g, e, h]                                                                                                                   Rule P6b
+130.	[d, i, a, h, c] seq [d, g, e, h, a]                                                                                                                                    Rule P1
+131.	[d, i, a, h, c] seq [d, g, e, h, a]                                                                                                                                    Rule P1
+132.	[d, i, a, h, c] seq [d, g, e, h, a]  - AND -  [d, i, a, h, c] seq [d, g, e, h, a]                                                                                      AND
+133.	[d, a, i, h, a imp c, c] seq [d, g, e, h, a]                                                                                                                           Rule P5b
+134.	[d, i, a, h, c] seq [d, g, e, h, a, c]                                                                                                                                 Rule P1
+135.	[d, a, i, h, c] seq [d, g, e, h, a, a imp c]                                                                                                                           Rule P5a
+136.	[d, a, i, h, a imp c, c] seq [d, g, e, h, a]  - AND -  [d, a, i, h, c] seq [d, g, e, h, a, a imp c]                                                                    AND
+137.	[d iff (a imp c), d, i, a, h, c] seq [d, g, e, h, a]                                                                                                                   Rule P6b
+138.	[d iff (a imp c), d, i, a, h, b, c] seq [d, g, e, h]  - AND -  [d iff (a imp c), d, i, a, h, c] seq [d, g, e, h, a]                                                    AND
+139.	[d iff (a imp c), d, a, i, h, a imp b, c] seq [d, g, e, h]                                                                                                             Rule P5b
+140.	[d, i, a, h, c] seq [d, g, e, h, c, b]                                                                                                                                 Rule P1
+141.	[d, i, a, h] seq [d, g, e, h, c, b, a]                                                                                                                                 Rule P1
+142.	[d, i, a, h, c] seq [d, g, e, h, c, b]  - AND -  [d, i, a, h] seq [d, g, e, h, c, b, a]                                                                                AND
+143.	[d, a, i, h, a imp c] seq [d, g, e, h, c, b]                                                                                                                           Rule P5b
+144.	[d, i, a, h] seq [d, g, e, h, c, b]                                                                                                                                    Rule P1
+145.	[d, a, i, h] seq [d, g, e, h, a imp c, c, b]                                                                                                                           Rule P5a
+146.	[d, a, i, h, a imp c] seq [d, g, e, h, c, b]  - AND -  [d, a, i, h] seq [d, g, e, h, a imp c, c, b]                                                                    AND
+147.	[d iff (a imp c), d, i, a, h] seq [d, g, e, h, c, b]                                                                                                                   Rule P6b
+148.	[d iff (a imp c), d, a, i, h] seq [d, g, e, h, c, a imp b]                                                                                                             Rule P5a
+149.	[d iff (a imp c), d, a, i, h, a imp b, c] seq [d, g, e, h]  - AND -  [d iff (a imp c), d, a, i, h] seq [d, g, e, h, c, a imp b]                                        AND
+150.	[(a imp b) iff c, d iff (a imp c), d, i, a, h] seq [d, g, e, h]                                                                                                        Rule P6b
+151.	[(a imp b) iff c, d iff (a imp c), d, i, a, h] seq [d, g, e, c]  - AND -  [(a imp b) iff c, d iff (a imp c), d, i, a, h] seq [d, g, e, h]                              AND
+152.	[d iff (a imp c), (a imp b) iff c, d, a, i, h] seq [d, g, e, c and h]                                                                                                  Rule P3a
+153.	[d, i, h, c, b] seq [d, a, g, e]                                                                                                                                       Rule P1
+154.	[d, i, h, c, b] seq [d, a, g, e]                                                                                                                                       Rule P1
+155.	[d, i, h, c, b] seq [d, a, g, e]  - AND -  [d, i, h, c, b] seq [d, a, g, e]                                                                                            AND
+156.	[d, i, h, a imp c, c, b] seq [d, a, g, e]                                                                                                                              Rule P5b
+157.	[d, a, i, h, c, b] seq [d, a, g, e, c]                                                                                                                                 Rule P1
+158.	[d, i, h, c, b] seq [d, a, g, e, a imp c]                                                                                                                              Rule P5a
+159.	[d, i, h, a imp c, c, b] seq [d, a, g, e]  - AND -  [d, i, h, c, b] seq [d, a, g, e, a imp c]                                                                          AND
+160.	[d iff (a imp c), d, i, h, c, b] seq [d, a, g, e]                                                                                                                      Rule P6b
+161.	[d, i, h, c] seq [d, a, g, e]                                                                                                                                          Rule P1
+162.	[d, i, h, c] seq [d, a, g, e]                                                                                                                                          Rule P1
+163.	[d, i, h, c] seq [d, a, g, e]  - AND -  [d, i, h, c] seq [d, a, g, e]                                                                                                  AND
+164.	[d, i, h, a imp c, c] seq [d, a, g, e]                                                                                                                                 Rule P5b
+165.	[d, a, i, h, c] seq [d, a, g, e, c]                                                                                                                                    Rule P1
+166.	[d, i, h, c] seq [d, a, g, e, a imp c]                                                                                                                                 Rule P5a
+167.	[d, i, h, a imp c, c] seq [d, a, g, e]  - AND -  [d, i, h, c] seq [d, a, g, e, a imp c]                                                                                AND
+168.	[d iff (a imp c), d, i, h, c] seq [d, a, g, e]                                                                                                                         Rule P6b
+169.	[d iff (a imp c), d, i, h, c, b] seq [d, a, g, e]  - AND -  [d iff (a imp c), d, i, h, c] seq [d, a, g, e]                                                             AND
+170.	[d iff (a imp c), d, i, h, c, a imp b] seq [d, a, g, e]                                                                                                                Rule P5b
+171.	[d, a, i, h, c] seq [d, a, g, e, c, b]                                                                                                                                 Rule P1
+172.	[d, a, i, h, c] seq [d, a, g, e, c, b]                                                                                                                                 Rule P1
+173.	[d, a, i, h, c] seq [d, a, g, e, c, b]  - AND -  [d, a, i, h, c] seq [d, a, g, e, c, b]                                                                                AND
+174.	[d, i, a, h, a imp c, c] seq [d, a, g, e, c, b]                                                                                                                        Rule P5b
+175.	[d, a, i, h, c] seq [d, a, g, e, c, b]                                                                                                                                 Rule P1
+176.	[d, i, a, h, c] seq [d, a, g, e, a imp c, c, b]                                                                                                                        Rule P5a
+177.	[d, i, a, h, a imp c, c] seq [d, a, g, e, c, b]  - AND -  [d, i, a, h, c] seq [d, a, g, e, a imp c, c, b]                                                              AND
+178.	[d iff (a imp c), d, a, i, h, c] seq [d, a, g, e, c, b]                                                                                                                Rule P6b
+179.	[d iff (a imp c), d, i, h, c] seq [d, a, g, e, c, a imp b]                                                                                                             Rule P5a
+180.	[d iff (a imp c), d, i, h, c, a imp b] seq [d, a, g, e]  - AND -  [d iff (a imp c), d, i, h, c] seq [d, a, g, e, c, a imp b]                                           AND
+181.	[(a imp b) iff c, d iff (a imp c), d, i, h, c] seq [d, a, g, e]                                                                                                        Rule P6b
+182.	[c and h, d iff (a imp c), (a imp b) iff c, d, i, h] seq [d, a, g, e]                                                                                                  Rule P3b
+183.	[d iff (a imp c), (a imp b) iff c, d, a, i, h] seq [d, g, e, c and h]  - AND -  [c and h, d iff (a imp c), (a imp b) iff c, d, i, h] seq [d, a, g, e]                  AND
+184.	[(a imp b) iff c, d iff (a imp c), d, i, h] seq [d, a iff (c and h), g, e]                                                                                             Rule P6a
+185.	[f, (a imp b) iff c, d iff (a imp c), d, i, h] seq [d, a iff (c and h), g]  - AND -  [(a imp b) iff c, d iff (a imp c), d, i, h] seq [d, a iff (c and h), g, e]        AND
+186.	[d iff (a imp c), (a imp b) iff c, e imp f, d, i, h] seq [d, a iff (c and h), g]                                                                                       Rule P5b
+187.	[(a imp b) iff c, d iff (a imp c), e imp f, d, i and h] seq [d, a iff (c and h), g]                                                                                    Rule P3b
+188.	[d iff (a imp c), (a imp b) iff c, e imp f, d, neg g, i and h] seq [d, a iff (c and h)]                                                                                Rule P2b
+189.	[(a imp b) iff c, d iff (a imp c), e imp f, d, (neg g) and (i and h)] seq [d, a iff (c and h)]                                                                         Rule P3b
+190.	[d and ((neg g) and (i and h)), d iff (a imp c), (a imp b) iff c, e imp f] seq [d, a iff (c and h)]                                                                    Rule P3b
+191.	[(a imp b) iff c, d iff (a imp c), (d and ((neg g) and (i and h))) and (e imp f)] seq [d, a iff (c and h)]                                                             Rule P3b
+QED

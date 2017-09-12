@@ -1,0 +1,16 @@
+true
+Proofs:
+1.	[p, q] seq [r, q]                                                        Rule P1
+2.	[p] seq [r, q, p]                                                        Rule P1
+3.	[p, q] seq [r, q]  - AND -  [p] seq [r, q, p]                            AND
+4.	[p imp q, p] seq [r, q]                                                  Rule P5b
+5.	[p imp q, p, neg q] seq [r]                                              Rule P2b
+6.	[p, r, q] seq [r]                                                        Rule P1
+7.	[p, r] seq [r, p]                                                        Rule P1
+8.	[p, r, q] seq [r]  - AND -  [p, r] seq [r, p]                            AND
+9.	[p imp q, p, r] seq [r]                                                  Rule P5b
+10.	[p imp q, p] seq [r, neg r]                                              Rule P2a
+11.	[p imp q, p, neg q] seq [r]  - AND -  [p imp q, p] seq [r, neg r]        AND
+12.	[(neg r) imp (neg q), p imp q, p] seq [r]                                Rule P5b
+13.	[p imp q, (neg r) imp (neg q)] seq [p imp r]                             Rule P5a
+QED

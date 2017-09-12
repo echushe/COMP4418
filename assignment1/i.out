@@ -1,0 +1,30 @@
+true
+Proofs:
+1.	[p, q] seq [p]                                                                                 Rule P1
+2.	[p] seq [p, q]                                                                                 Rule P1
+3.	[p, q] seq [p]  - AND -  [p] seq [p, q]                                                        AND
+4.	[p iff q, p] seq [p]                                                                           Rule P6b
+5.	[p iff q] seq [p, neg p]                                                                       Rule P2a
+6.	[q, p] seq [p]                                                                                 Rule P1
+7.	[q] seq [p, q]                                                                                 Rule P1
+8.	[q, p] seq [p]  - AND -  [q] seq [p, q]                                                        AND
+9.	[p iff q, q] seq [p]                                                                           Rule P6b
+10.	[p iff q] seq [p, neg q]                                                                       Rule P2a
+11.	[p iff q] seq [p, neg p]  - AND -  [p iff q] seq [p, neg q]                                    AND
+12.	[p iff q] seq [(neg p) and (neg q), p]                                                         Rule P3a
+13.	[p, q] seq [q]                                                                                 Rule P1
+14.	[p] seq [q, p]                                                                                 Rule P1
+15.	[p, q] seq [q]  - AND -  [p] seq [q, p]                                                        AND
+16.	[p iff q, p] seq [q]                                                                           Rule P6b
+17.	[p iff q] seq [q, neg p]                                                                       Rule P2a
+18.	[q, p] seq [q]                                                                                 Rule P1
+19.	[q] seq [q, p]                                                                                 Rule P1
+20.	[q, p] seq [q]  - AND -  [q] seq [q, p]                                                        AND
+21.	[p iff q, q] seq [q]                                                                           Rule P6b
+22.	[p iff q] seq [q, neg q]                                                                       Rule P2a
+23.	[p iff q] seq [q, neg p]  - AND -  [p iff q] seq [q, neg q]                                    AND
+24.	[p iff q] seq [q, (neg p) and (neg q)]                                                         Rule P3a
+25.	[p iff q] seq [(neg p) and (neg q), p]  - AND -  [p iff q] seq [q, (neg p) and (neg q)]        AND
+26.	[p iff q] seq [p and q, (neg p) and (neg q)]                                                   Rule P3a
+27.	[p iff q] seq [(p and q) or ((neg p) and (neg q))]                                             Rule P4a
+QED

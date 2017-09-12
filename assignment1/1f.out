@@ -1,0 +1,27 @@
+true
+Proofs:
+1.	[p, q] seq [p]                                                             Rule P1
+2.	[p, r] seq [p]                                                             Rule P1
+3.	[p, q] seq [p]  - AND -  [p, r] seq [p]                                    AND
+4.	[p, q or r] seq [p]                                                        Rule P4b
+5.	[p, q] seq [p, r]                                                          Rule P1
+6.	[p, r] seq [p, r]                                                          Rule P1
+7.	[p, q] seq [p, r]  - AND -  [p, r] seq [p, r]                              AND
+8.	[p, q or r] seq [p, r]                                                     Rule P4b
+9.	[p, q or r] seq [p]  - AND -  [p, q or r] seq [p, r]                       AND
+10.	[p, q or r] seq [p and r, p]                                               Rule P3a
+11.	[p, q] seq [q, p]                                                          Rule P1
+12.	[p, r] seq [q, p]                                                          Rule P1
+13.	[p, q] seq [q, p]  - AND -  [p, r] seq [q, p]                              AND
+14.	[p, q or r] seq [q, p]                                                     Rule P4b
+15.	[p, q] seq [q, r]                                                          Rule P1
+16.	[p, r] seq [q, r]                                                          Rule P1
+17.	[p, q] seq [q, r]  - AND -  [p, r] seq [q, r]                              AND
+18.	[p, q or r] seq [q, r]                                                     Rule P4b
+19.	[p, q or r] seq [q, p]  - AND -  [p, q or r] seq [q, r]                    AND
+20.	[p, q or r] seq [p and r, q]                                               Rule P3a
+21.	[p, q or r] seq [p and r, p]  - AND -  [p, q or r] seq [p and r, q]        AND
+22.	[p, q or r] seq [p and q, p and r]                                         Rule P3a
+23.	[p, q or r] seq [(p and q) or (p and r)]                                   Rule P4a
+24.	[p and (q or r)] seq [(p and q) or (p and r)]                              Rule P3b
+QED

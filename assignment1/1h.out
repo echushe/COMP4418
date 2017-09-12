@@ -1,0 +1,26 @@
+true
+Proofs:
+1.	[p, q, r] seq [r]                                                            Rule P1
+2.	[p, q] seq [r, q]                                                            Rule P1
+3.	[p, q, r] seq [r]  - AND -  [p, q] seq [r, q]                                AND
+4.	[q iff r, p, q] seq [r]                                                      Rule P6b
+5.	[p, q, r] seq [r, q, p]                                                      Rule P1
+6.	[p] seq [r, q, p]                                                            Rule P1
+7.	[p, q, r] seq [r, q, p]  - AND -  [p] seq [r, q, p]                          AND
+8.	[q iff r, p] seq [r, q, p]                                                   Rule P6b
+9.	[q iff r, p, q] seq [r]  - AND -  [q iff r, p] seq [r, q, p]                 AND
+10.	[p iff q, q iff r, p] seq [r]                                                Rule P6b
+11.	[r, p, q] seq [p]                                                            Rule P1
+12.	[r, p, q] seq [p, r, q]                                                      Rule P1
+13.	[r, p, q] seq [p]  - AND -  [r, p, q] seq [p, r, q]                          AND
+14.	[q iff r, r, p, q] seq [p]                                                   Rule P6b
+15.	[r, q] seq [p, q]                                                            Rule P1
+16.	[r] seq [p, q, r]                                                            Rule P1
+17.	[r, q] seq [p, q]  - AND -  [r] seq [p, q, r]                                AND
+18.	[q iff r, r] seq [p, q]                                                      Rule P6b
+19.	[q iff r, r, p, q] seq [p]  - AND -  [q iff r, r] seq [p, q]                 AND
+20.	[p iff q, q iff r, r] seq [p]                                                Rule P6b
+21.	[p iff q, q iff r, p] seq [r]  - AND -  [p iff q, q iff r, r] seq [p]        AND
+22.	[p iff q, q iff r] seq [p iff r]                                             Rule P6a
+23.	[p iff q] seq [(q iff r) imp (p iff r)]                                      Rule P5a
+QED

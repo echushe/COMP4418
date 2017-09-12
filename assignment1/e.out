@@ -1,0 +1,16 @@
+true
+Proofs:
+1.	[r, p, q] seq [p]                                                          Rule P1
+2.	[p and q, r] seq [p]                                                       Rule P3b
+3.	[(p and q) and r] seq [p]                                                  Rule P3b
+4.	[r, p, q] seq [q]                                                          Rule P1
+5.	[p and q, r] seq [q]                                                       Rule P3b
+6.	[(p and q) and r] seq [q]                                                  Rule P3b
+7.	[r, p, q] seq [r]                                                          Rule P1
+8.	[p and q, r] seq [r]                                                       Rule P3b
+9.	[(p and q) and r] seq [r]                                                  Rule P3b
+10.	[(p and q) and r] seq [q]  - AND -  [(p and q) and r] seq [r]              AND
+11.	[(p and q) and r] seq [q and r]                                            Rule P3a
+12.	[(p and q) and r] seq [p]  - AND -  [(p and q) and r] seq [q and r]        AND
+13.	[(p and q) and r] seq [p and (q and r)]                                    Rule P3a
+QED

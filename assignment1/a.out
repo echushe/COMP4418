@@ -1,0 +1,6 @@
+true
+Proofs:
+1.	[p] seq [p]                  Rule P1
+2.	[] seq [neg p, p]            Rule P2a
+3.	[] seq [(neg p) or p]        Rule P4a
+QED
