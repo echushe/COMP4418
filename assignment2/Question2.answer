@@ -1,0 +1,38 @@
+E:\UNSW_semester_3\COMP4418\clingo>clingo.exe  -n 0 E:/COMP4418/assn2/Question2.m
+clingo version 5.2.1
+Reading from E:/COMP4418/assn2/Question2.m
+Solving...
+Answer: 1
+a d
+Answer: 2
+b d
+Answer: 3
+c d
+SATISFIABLE
+
+Models       : 3
+Calls        : 1
+Time         : 0.026s (Solving: 0.02s 1st Model: 0.00s Unsat: 0.02s)
+CPU Time     : 0.000s
+
+
+d :- a.  d :- b.  d :- c.
+d :- a.  d :- b.  d :- c.
+d :- a.  d :- b.  d :- c.
+d :- a.  d :- b.  d :- c.
+d :- a.  d :- b.  d :- c.
+d :- a.  d :- b.  d :- c.
+d :- a.  d :- b.  d :- c.
+
+a.  d :- a.  d :- b.  d :- c.
+d :- a.  d :- b.  d :- c.
+b.  d :- a.  d :- b.  d :- c.
+c.  d :- a.  d :- b.  d :- c.
+a.  d :- a.  d :- b.  d :- c.
+b.  d :- a.  d :- b.  d :- c.
+c.  d :- a.  d :- b.  d :- c.
+
+a.  b.  c.  d :- a.  d :- b.  d :- c.
+a.  b.  c.  d :- a.  d :- b.  d :- c.
+
+
